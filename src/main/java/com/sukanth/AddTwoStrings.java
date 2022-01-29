@@ -7,6 +7,17 @@ public class AddTwoStrings {
 
         String testCaseTwo = addStrings("123", "11");
         Assert.assertEquals("134",testCaseTwo);
+
+        addNumsInArray(new String[]{"1", "2", "3", "4", "5"});
+    }
+
+
+    public static String addNumsInArray(String[] nums){
+        String result ="0";
+        for(int i=0;i<nums.length;i++){
+            result = addStrings(nums[i],result);
+        }
+        return result;
     }
 
     private static String addStrings(String num1, String num2) {
