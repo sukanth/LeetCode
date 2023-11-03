@@ -3,13 +3,21 @@ package com.sukanth.arraysandhashset;
 import java.util.HashSet;
 
 /**
+
+ * Difficulty Level : Easy
+
+ ************************************************************************************************
+
  * Question : https://leetcode.com/problems/contains-duplicate/
  * Solution : https://github.com/neetcode-gh/leetcode/blob/main/java/0217-contains-duplicate.java
  * Explanation : https://www.youtube.com/watch?v=3OamzN90kPg
- *
+
+ ************************************************************************************************
+
  * Time Complexity : O(n)
  * Space Complexity : O(n)
- *
+
+ ************************************************************************************************
  */
 public class ContainsDuplicate {
     public static void main(String[] args) {
