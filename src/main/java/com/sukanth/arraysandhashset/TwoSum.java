@@ -1,4 +1,4 @@
-package com.sukanth;
+package com.sukanth.arraysandhashset;
 
 import java.util.HashMap;
 import java.util.Map;
