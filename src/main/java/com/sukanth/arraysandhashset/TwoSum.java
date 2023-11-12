@@ -3,6 +3,14 @@ package com.sukanth.arraysandhashset;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Difficulty Level : Easy
+ * ************************************************************************************
+ * Question : https://leetcode.com/problems/two-sum/
+ * Youtube : https://www.youtube.com/watch?v=KLlXCFG5TnA
+ * Answer : https://github.com/neetcode-gh/leetcode/blob/main/java/0001-two-sum.java
+ * ************************************************************************************
+ */
 public class TwoSum {
     public static void main(String[] args) {
         int[] test ={1,2,2,3,3,4};
