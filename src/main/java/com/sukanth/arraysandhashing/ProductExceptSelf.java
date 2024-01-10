@@ -1,7 +1,4 @@
 package com.sukanth.arraysandhashing;
-
-import java.util.Arrays;
-
 public class ProductExceptSelf {
     /**
      * Difficulty Level : Medium
