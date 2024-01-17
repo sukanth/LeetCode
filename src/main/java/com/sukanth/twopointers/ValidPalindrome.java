@@ -21,7 +21,7 @@ public class ValidPalindrome {
         int left = 0;
         int right = s.length() - 1;
 
-        while (left <= right) {
+        while (left < right) {
             char currLeft = s.charAt(left);
             char currRight = s.charAt(right);
             if (!Character.isLetterOrDigit(currLeft)) {
@@ -40,11 +40,14 @@ public class ValidPalindrome {
     }
 
     private static boolean isValidPalindrome(int x) {
+        if(x < 0){
+            return false;
+        }
         String s = Integer.toString(x);
         int left = 0;
         int right = s.length() - 1;
 
-        while(left <= right){
+        while(left < right){
             char currLeft = s.charAt(left);
             char currRight = s.charAt(right);
             if(!Character.isLetterOrDigit(currLeft)){
